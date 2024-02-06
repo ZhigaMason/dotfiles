@@ -1,7 +1,5 @@
 #!/bin/bash
-export GIT_PS1_SHOWDIRTYSTATE=1
-export GIT_PS1_SHOWSTASHSTATE=1
-export GIT_PS1_SHOWUNTRACKEDFILES=1
-export GIT_PS1_SHOWUPSTREAM="verbose"
-export PS1='\w \$ '
+
+GIT_BRANCH=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/')
+export PS1='${GIT_BRANCH} @\w \$ '
 
