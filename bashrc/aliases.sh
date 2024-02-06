@@ -9,5 +9,3 @@ alias ll='ls -la'
 alias grep='grep --color=auto'
 alias batt='cbatticon'
 alias view='vim -R'
-alias aweconfig="$EDITOR ~/.config/awesome/rc.lua"
-alias awetheme="$EDITOR ~/.config/awesome/mytheme.lua"
