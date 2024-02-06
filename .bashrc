@@ -11,6 +11,7 @@ alias batt='cbatticon'
 alias aweconfig="$EDITOR ~/.config/awesome/rc.lua"
 alias awetheme="$EDITOR ~/.config/awesome/mytheme.lua"
 
+source ~/dotfiles/bashrc/set_vars.sh
 for FILE in "$DOT_DIR"/bashrc/* ; do
 	[ ! -f $FILE ] && echo "$FILE is not a regular file"
 	[ ! -x $FILE ] && ! grep -q 'README' <<< "$FILE" && echo "$FILE is not executable by $USER"
