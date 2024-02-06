@@ -17,4 +17,6 @@ for FILE in "$DOT_DIR"/bashrc/* ; do
 	[ -f $FILE ] && [ -x $FILE ] && source $FILE
 done
 
+echo -e "Logged as $USER at ${HOSTNAME}\n$(date)"
+
 [ -z  "$DISPLAY" ] && [ "$XDG_VTNR" -le 3 ] && exec startx 
