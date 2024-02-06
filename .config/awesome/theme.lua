@@ -21,7 +21,7 @@ theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
 theme.useless_gap   = dpi(3)
-theme.border_width  = dpi(1)
+theme.border_width  = dpi(3)
 theme.border_normal = "#000000"
 theme.border_focus  = "#535d6c"
 theme.border_marked = "#91231c"
@@ -61,6 +61,8 @@ theme.menu_submenu_icon = themes_path.."default/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width  = dpi(100)
 
+theme.wibar_height = dpi(28)
+
 -- You can add as many variables as
 -- you wish and access them by using
 -- beautiful.variable in your rc.lua
@@ -93,11 +95,8 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
--- if not os.getenv("WALLPAPER") then
-	theme.wallpaper = os.getenv("WALLPAPER")
---else
---	theme.wallpaper = themes_path.."default/background.png"
---end
+theme.wallpaper = os.getenv("WALLPAPER")
+
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
 theme.layout_fairv = themes_path.."default/layouts/fairvw.png"
