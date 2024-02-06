@@ -1,0 +1,11 @@
+[core]
+	user = Maksym Khavil
+	editor = vim
+[user]
+	name = Maksym Khavil
+	email = khavimak@fit.cvut.cz
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
