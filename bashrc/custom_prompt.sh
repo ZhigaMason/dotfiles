@@ -8,5 +8,5 @@ GIT_PS1_SHOWCONFLICTSTATE='yes'
 GIT_PS1_DESCRIBE_STYLE='default'
 GIT_PS1_SHOWUPSTREAM='verbose'
 
-export PS1='$(__git_ps1) @\w \$ '
+export PS1='$(__git_ps1) @\W \$ '
 
