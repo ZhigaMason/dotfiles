@@ -1,2 +1,3 @@
-set ai si nu rnu
+set autoindent smartindent
+set number relativenumber
 syntax on
