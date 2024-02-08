@@ -8,6 +8,10 @@ set shiftround shiftwidth=4
 set hlsearch incsearch
 set ignorecase smartcase
 
+set encoding=utf-8
+set linebreak
+set scrolloff=7
+
 set number relativenumber
 
 syntax on
