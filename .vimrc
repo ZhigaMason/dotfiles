@@ -12,6 +12,7 @@ set encoding=utf-8
 set linebreak
 set scrolloff=7
 
+set wildmenu
 set number relativenumber
 
 syntax on
