@@ -63,6 +63,9 @@ theme.menu_width  = dpi(100)
 
 theme.wibar_height = dpi(28)
 
+-- keyboard layout widget width
+theme.keyboard_layout_width = dpi(5)
+
 -- You can add as many variables as
 -- you wish and access them by using
 -- beautiful.variable in your rc.lua

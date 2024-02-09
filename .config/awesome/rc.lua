@@ -103,7 +103,9 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 -- }}}
 
 -- Keyboard map indicator and switcher
-mykeyboardlayout = awful.widget.keyboardlayout()
+mykeyboardlayout = awful.widget.keyboardlayout(
+    { width = beautiful.keyboard_layout_width }
+)
 
 -- {{{ Wibar
 -- Create a textclock widget
