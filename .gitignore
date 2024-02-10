@@ -1,3 +1,5 @@
 \.config/vivaldi
 \.config/pulse
 \.config/dconf
+\.config/qBittorent
+\.config/QtProject.conf
