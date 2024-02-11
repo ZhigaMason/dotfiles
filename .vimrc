@@ -8,7 +8,7 @@ set smarttab tabstop=4
 set shiftround shiftwidth=4
 
 " search options
-set hlsearch incsearch
+set nohlsearch incsearch
 set ignorecase smartcase
 
 " rendering options
