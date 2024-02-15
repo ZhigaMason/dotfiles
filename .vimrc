@@ -1,5 +1,7 @@
 " makes true vim exp
 set nocompatible
+        
+set term=$TERM
 
 " indent options
 set autoindent smartindent
@@ -19,6 +21,8 @@ set scrolloff=7
 " interface options
 set wildmenu
 set number relativenumber
+
+set clipboard="unnamed,unnamedplus"
 
 " ukrainian keymap
 set langmap=іs,ІS,ї],Ї},ґ\\,Ґ\|,є\',Є\",йЙцЦуУкКеЕнНгГшШщЩзЗхХъЪфФыЫвВаАпПрРоОлЛдДжЖэЭяЯчЧсСмМиИтТьЬбБюЮ.\\,;qQwWeErRtTyYuUiIoOpP[{]}aAsSdDfFgGhHjJkKlL;:'\"zZxXcCvVbBnNmM\\,<.>/?
