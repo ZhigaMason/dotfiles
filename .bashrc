@@ -15,3 +15,5 @@ done
 echo -e "Logged as $USER at ${HOSTNAME}\n$(date)"
 
 [ -z  "$DISPLAY" ] && [ "$XDG_VTNR" -le 3 ] && exec startx 
+
+eval "$(zoxide init --cmd cd bash)"
