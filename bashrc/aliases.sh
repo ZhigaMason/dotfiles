@@ -6,7 +6,7 @@ mkcd (){
 
 alias gll='g++ -std=c++20 -Wall -pedantic -Wno-long-long'
 alias gll-mem='gll -fsanitize=address -fsanitize=null'
-alias py='python3'
+alias py='python'
 alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -la'
 alias grep='grep --color=auto'
