@@ -1,10 +1,17 @@
 #!/bin/bash
 
+SET_SYMBOL='='
+
+for OPTION in $@; do
+    if grep -q '^--set=' <<< $OPTION ;then
+        SET_SYMBOL=$(sed -En "s/^--set=(.*)/\1/p" <<< $OPTION)
+    fi
+done
+
 if [ $# -lt 1 ] ; then
     echo "No arguments. Nothing to search for"
     exit 1
 fi
 
-
 KEYS=$(tr ' ' '|' <<< $@)
-sed -En "s/^(${KEYS})=(.*)/\2/p"
+sed -En "s/^(${KEYS})${SET_SYMBOL}(.*)/\2/p"
