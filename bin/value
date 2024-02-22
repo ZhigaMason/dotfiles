@@ -14,4 +14,4 @@ if [ $# -lt 1 ] ; then
 fi
 
 KEYS=$(tr ' ' '|' <<< $@)
-sed -En "s/^(${KEYS})${SET_SYMBOL}(.*)/\2/p"
+sed -En "s/(.*)\<(${KEYS})${SET_SYMBOL}(.*)/\3/p"
