@@ -1,0 +1,12 @@
+#!/bin/bash
+
+FILENAME=$(value $1 < ~/.bindata/boilerplate/boilerplate.conf)
+
+if [ -z $FILENAME ]; then
+    echo "No such template"
+    exit 1
+else
+    cp "${HOME}/.bindata/boilerplate/${FILENAME}" $PWD
+    echo "Copied ${FILENAME}"
+    exit 0
+fi
