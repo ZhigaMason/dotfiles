@@ -6,7 +6,7 @@ if [ -z $FILENAME ]; then
     echo "No such template"
     exit 1
 else
-    cp "~/.bindata/boilerplate/${FILENAME}" $PWD
+    cp "${HOME}/.bindata/boilerplate/${FILENAME}" $PWD
     echo "Copied ${FILENAME}"
     exit 0
 fi
