@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rsync -aAXHv --exclude='/dev/*' --exclude='/proc/*' --exclude='/sys/*' --exclude='/tmp/*' --exclude='/run/*' --exclude='/mnt/*' --exclude='/media/*' --exclude='/lost+found/' --exclude="${HOME}/Backup/*" --exclude="${HOME}/.cache/*" --exclude="${HOME}/Downloads/*" --exclude="${HOME}/.local/*" --exclude="${DOT_DIR}/*" / "${HOME}/Backup/"
