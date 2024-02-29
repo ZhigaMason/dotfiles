@@ -578,3 +578,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- start picom (compositor)
 awful.spawn.with_shell("picom -b")
+
+-- start cbatticon (battery icon)
+awful.spawn.with_shell("cbatticon -c 'poweroff'")
