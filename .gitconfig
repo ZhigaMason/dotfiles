@@ -1,6 +1,6 @@
 [core]
 	user = Maksym Khavil
-	editor = vim
+	editor = nvim
 [user]
 	name = Maksym Khavil
 	email = khavimak@fit.cvut.cz
