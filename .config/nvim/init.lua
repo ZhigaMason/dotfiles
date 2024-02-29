@@ -38,7 +38,7 @@ vim.keymap.set('n', '<C-p>', builtin_telescope.find_files, {})
 -- treesitter configs
 local treesitter_config = require("nvim-treesitter.configs")
 treesitter_config.setup({
-    ensure_installed = {"lua", "cpp", "c", "python", "bash"},
+    ensure_installed = {"lua", "cpp", "c", "python", "bash", "html"},
     sync_install = false,
     highlight = {enable = true},
     indent = {enable = true}
