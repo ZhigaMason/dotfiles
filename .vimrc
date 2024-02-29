@@ -1,7 +1,9 @@
 " makes true vim exp
 set nocompatible
         
-set term=$TERM
+if !has('nvim')
+	set term=$TERM
+endif
 
 " indent options
 set autoindent smartindent
