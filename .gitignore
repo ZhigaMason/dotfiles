@@ -5,3 +5,4 @@
 \.config/QtProject.conf
 \.config/JetBrains
 \.config/libreoffice
+\.luarc.json
