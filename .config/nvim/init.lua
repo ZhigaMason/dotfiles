@@ -1,3 +1,5 @@
+-- Set key-map 'mapleader' to a double space
+vim.g.mapleader = "  "
 
 -- Install vim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
