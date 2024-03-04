@@ -31,3 +31,5 @@ set langmap=іs,ІS,ї],Ї},ґ\\,Ґ\|,є\',Є\",йЙцЦуУкКеЕнНгГшШ
 
 " enables syntax-highlighting
 syntax on
+
+LspStart
