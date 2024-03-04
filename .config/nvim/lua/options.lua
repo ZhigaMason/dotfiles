@@ -6,5 +6,3 @@ vim.cmd('source ~/.vimrc')
  -- activate terminal colors
 vim.opt.termguicolors = true
 
--- Set key-map 'mapleader' to a space
-vim.g.mapleader = " "
