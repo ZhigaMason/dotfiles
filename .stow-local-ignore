@@ -1,4 +1,5 @@
 \.git
 \.gitignore
+\.luarc.json
 ^bashrc.*
 ^README.*
